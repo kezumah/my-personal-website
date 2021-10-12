@@ -3,10 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/style.css" rel="stylesheet">
-  <title>Document</title>
+  <meta name="author" content="Kennedy-Ezumah"/>
+  <meta name="description" content="Kennedy-Ezumah's-Personal-Website"/>
+  
+  <!-- Bootstrap Links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Action-On-Scroll Links-->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+   <!--Main CSS Link <link href="styles/style.css" rel="stylesheet"> -->
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+
+   <!-- Bootstrap Links -->
+  <title>Kennedy Ezumah's Homepage</title>
 </head>
 <body>
-  <h1>Welcome to Kennedy's Personal Website</h1>
+  <!-- Left half of wepbage -->
+ <div class="container">
+  <div class="row">
+    <div id="left" class="col-5">
+      <h2 id="header-msg">
+        <p>Hi, there. 👋🏾 </p>
+        <p>I'm Kennedy.</p>
+      </h2>
+      <p>My Igbo name is "Chiemeka", or "Emeka" for short.</p>
+      <p><img src="images/index-page-bitmoji.jpeg" alt="a cartoon of Kennedy's bitmoji avatar waving from a computer"></p>
+      <div>
+        <h6> 
+          <a href="#about-me">About Me</a>
+        </h6>
+      </div>
+      <h6><a href="#interests">Interests</a></h6>
+      <h6><a href="#projects">Projects</a></h6>
+      <h6><a href="https://linkedin.com/in/kennedy-ezumah-5110b1a1/">LinkedIn</a></h6>
+      <h6><a href="https://twitter.com/KennedyEzumah">Twitter</a></h6>
+      <h6><a href="https://github.com/kezumah">Github</a></h6>
+      <h6><a href="#personal-blog">Personal Blog</a></h6>
+      <h6><a href="resume-page.html">View My Resume</a></h6>
+    </div>
+
+    <!-- Left half of webpage -->
+    <div class="col-7">
+      <section id="about-me">
+        <div>
+    <!-- Animate On Scroll Section --->
+          <section
+            id="hero"
+            class="d-flex flex-column justify-content-center align-items-center">
+            <div class="hero-container" data-aos="fade-in">
+              <p> 
+                <h3> 
+                  I'm <span class="typed" data-typed-items="a Problem-solver, an Engineer, a Problem-Solver, a Storyteller, a Proud African">
+                </h3>
+                </span>
+              </p>
+            </div>
+        </div>
+      </section>
+      <div>
+        <h4>About Me</h4>
+        <p>
+          I'm a graduate student at Northeastern University, where I'm pursuing a master's degree in computer science. Through my studies, I have developed a strong foundation in data structures, algorithms, and object-oriented design, enabling me to think about complex problems in simple, abstract terms. 
+        </p>
+        <p>
+          Prior to my arrival at Northeastern, I graduated from Stony Brook University in 2017 with a bachelor's degree in civil engineering and worked for a few years in the heavy civil construction industry as a civil engineer.
+        </p> 
+          Now, as a student technologist, I'm excited about applying my unique perspective and technical skills to building meaningful digital experiences. Currently, I'm learning web development and find myself fascinated by how tools and services built on the web simplify and enable large-scale information sharing and collaboration.
+        </p> 
+        <h4 id="projects">Projects</h4>
+        <li ul style="list-style: none;">
+          <ul>
+            <h5><a href="https://twitter.com/CPUBot1">CPU Temperature Bot</a> (2021)</h5>
+            <p>A bot that tweets periodic CPU temperature updates from a raspberrypi, alerting you of excessive readings</p>
+          </ul>
+          <ul>
+            <h5>Travel Buddy (2021)</h5>
+            <p>A Java desktop application where travelers can share destination reviews</p>
+          </ul>
+          <ul>
+            <h5><a href="https://nzukobrand.com">NZUKO IgboHistory</a> (2013 - present)</h5>
+          <p>A digital brand that celebrates the global experience of the <a href="https://en.wikipedia.org/wiki/Igbo_people">Igbo people</a> through research and storytelling</p>
+          </ul>
+        </li>
+        <h4 id="interests">Interests</h4>
+          <p>
+            These days, when I'm not writing code or studying, I enjoy: reading, making amateur films, traveling, learning new languages, taking scenic walks, eating, cooking, and connecting with family and friends.x
+          </p>
+        <h4 id="personal-blog">Personal Blog</h4>
+          <p>
+            In the near future, I'll be sharing my thoughts on Medium. <a rel="stylesheet" type="text/css" href="https://medium.com/@kennedy.ezumah">Follow me.</a>
+          </p>
+      </div>
+  </div>
+  <!-- JS files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="bower_components/aos/dist/aos.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="scripts/main.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+<footer>© Kennedy Chiemeka Ezumah 2021 </footer>
 </html>
